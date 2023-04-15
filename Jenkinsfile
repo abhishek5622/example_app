@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh '/usr/bin/docker-compose up -d'
+                sh 'python hello_world.py'
             }
         }
     }
