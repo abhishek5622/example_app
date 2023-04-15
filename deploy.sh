@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/local/bin/docker-compose up -d
+/mnt/c/Program Files/Docker/Docker/resources/bin/docker-compose up -d
