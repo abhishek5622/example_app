@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  web:
+    image: "python:3.9"
+    ports:
+      - "8081:8000"
+    volumes:
+      - .:/app
+    command: python3 /app/hello_world.py
+
