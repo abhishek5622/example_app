@@ -1,2 +1,3 @@
 #!/bin/bash
-/usr/bin/docker compose up -d
+docker build -t abhi/jenkinapp
+docker run abhi/jenkinapp
