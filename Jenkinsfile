@@ -2,7 +2,7 @@
 pipeline {
     agent { docker { image 'python:3.9' } }
     environment {
-    PATH = "$PATH:/usr/bin"
+    PATH = "$PATH:/usr/bin/docker-compose"
   }
     stages {
         stage('build') {
