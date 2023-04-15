@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t abhi/jenkinapp
-docker run abhi/jenkinapp
+/usr/bin/docker build -t abhi/jenkinapp
+/usr/bin/docker run abhi/jenkinapp
